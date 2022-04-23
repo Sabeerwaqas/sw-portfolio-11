@@ -1,0 +1,383 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: 000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousal-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousal-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousal-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousal-caption p {
+    margin: auto;
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.9rem;
+}
+
+.carousal-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.about-us {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+}
+
+.about-parent {
+    margin-top: 5%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.about-child {
+    width: 25%;
+}
+
+.another-card {
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.about-child-image {
+    width: 100%;
+}
+
+.child-2 {
+    width: 50%;
+}
+
+.services-heading {
+    font-size: 60px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.services-para {
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.text-center {
+    color: white;
+    padding: 1%;
+    width: 20%;
+}
+
+.btn {
+    margin-top: 10%;
+}
+
+.project-heading {
+    font-size: 60px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.project-para {
+    text-align: justify;
+}
+
+.project-image {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.project-para {
+    font-weight: bold;
+}
+
+.btn-2 {
+    margin-left: 35%;
+    border: none;
+    padding: 5%;
+    border-radius: 50%;
+}
+
+.our-team {
+    font-size: 60px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.team-member {
+    border-radius: 50%;
+    margin-left: 30%;
+}
+
+.pepper {
+    justify-content: space-around;
+}
+
+.permanent-member {
+    box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.15);
+    width: 30%;
+}
+
+.salt {
+    margin-left: 35%;
+}
+
+.salt-child {
+    text-align: justify;
+}
+
+.contact-us {
+    font-size: 60px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-child {
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.unique-child {
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 360px) {}
+
+@media (max-width: 576px) {
+    .services-heading {
+        font-size: 60px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .media-services {
+        flex-direction: column;
+    }
+    .text-center {
+        margin-top: 5%;
+        width: 100%;
+    }
+    .btn {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    .about-us {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 5%;
+    }
+    .about-parent {
+        margin-top: 5%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-child {
+        width: 100%;
+    }
+    .provide {
+        text-align: center;
+    }
+    .lorem {
+        text-align: center;
+    }
+    .services-heading {
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .services-para {
+        width: 30%;
+        text-align: center;
+        margin-left: 35%;
+    }
+    .text-center {
+        color: white;
+        padding: 1%;
+    }
+    .btn {
+        margin-right: 40%;
+        margin-top: 10%;
+    }
+    .our-team {
+        font-size: 40px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .team-member {
+        border-radius: 50%;
+        margin-left: 30%;
+    }
+    .pepper {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .permanent-member {
+        box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        margin-top: 5%;
+    }
+    .salt {
+        margin-left: 35%;
+    }
+    .salt-child {
+        text-align: justify;
+    }
+    ul {
+        list-style: none;
+    }
+    .footer-child {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    .unique-child {
+        margin-left: 50%;
+    }
+    .footer-ul {
+        margin-right: 10%;
+    }
+    .btn-2 {
+        margin-left: 37%;
+        border: none;
+        padding: 5%;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-heading {
+        font-size: 60px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .media-services {
+        flex-direction: column;
+    }
+    .services-para {}
+    .text-center {
+        margin-top: 5%;
+        width: 100%;
+    }
+    .btn {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+    .about-us {
+        text-align: center;
+        font-size: 60px;
+        margin-top: 5%;
+    }
+    .about-parent {
+        margin-top: 5%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-child {
+        width: 100%;
+    }
+    .provide {
+        text-align: center;
+    }
+    .lorem {
+        text-align: center;
+    }
+    .services-heading {
+        font-size: 60px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .services-para {
+        width: 30%;
+        text-align: center;
+        margin-left: 35%;
+    }
+    .text-center {
+        color: white;
+        padding: 1%;
+    }
+    .btn {
+        margin-right: 40%;
+        margin-top: 10%;
+    }
+    .our-team {
+        font-size: 60px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .team-member {
+        border-radius: 50%;
+        margin-left: 30%;
+    }
+    .pepper {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .permanent-member {
+        box-shadow: 5px 2px 2px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        margin-top: 5%;
+    }
+    .salt {
+        margin-left: 35%;
+    }
+    .salt-child {
+        text-align: justify;
+    }
+    ul {
+        list-style: none;
+    }
+    .footer-child {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    .unique-child {
+        margin-left: 50%;
+    }
+    .footer-ul {
+        margin-left: 28%;
+    }
+    .btn-2 {
+        margin-left: 37%;
+        border: none;
+        padding: 5%;
+        border-radius: 50%;
+    }
+}
